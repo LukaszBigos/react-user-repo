@@ -1,0 +1,42 @@
+.single-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 7px 0px rgba(204,204,204,1);
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.single-tile h3 {
+  padding: 0.7rem;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.single-tile span {
+  font-size: 1rem;
+  color: #000;
+}
+
+@media(min-width: 600px) {
+  .single-tile {
+    width: 40%
+  }
+}
+
+@media(min-width: 1024px) {
+  .single-tile {
+    width: 30%
+  }
+}
+
+@media(min-width: 1600px) {
+  .single-tile {
+    width: 20%
+  }
+}
