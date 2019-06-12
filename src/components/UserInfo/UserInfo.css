@@ -10,6 +10,12 @@
   box-shadow: 0 0 7px 0px rgba(204,204,204,1);
   width: 100%;
   font-size: 0.8rem;
+  transition: all 0.3s ease-out;
+}
+
+.single-tile:hover {
+  cursor: pointer;
+  background-color: #ccc;
 }
 
 .single-tile h3 {

@@ -1,0 +1,22 @@
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 7px 0px rgba(204,204,204,1);
+  background-color: #fff;
+}
+
+.repo-container h3 {
+  padding: 0.2rem;
+  color: #555;
+  font-size: 0.8rem;;
+}
+
+.repo-container span {
+  color: #000;
+}
